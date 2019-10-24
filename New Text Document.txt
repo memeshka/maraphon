@@ -1,0 +1,17 @@
+CREATE TABLE [dbo].[Staff] (
+[StaffID] int NOT NULL,
+[FirstName] varchar(80) NOT NULL,
+[LastName] varchar(80) NOT NULL,
+[Email] varchar(100) NOT NULL,
+[DateofBirth] datetime NOT NULL,
+[Gender] varchar(10) NOT NULL,
+[PositionID] smallint NOT NULL,
+[Comments] varchar(2000)
+)
+CREATE TABLE [dbo].[TimeSheet] (
+[TimesheetID] int NOT NULL,
+[StaffID] int NOT NULL,
+[StartDateTime] datetime NOT NULL,
+[EndDateTime] datetime NOT NULL,
+[PayAmount] varchar(10) NOT NULL
+)

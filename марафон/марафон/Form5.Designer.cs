@@ -87,6 +87,7 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(664, 334);
             this.flowLayoutPanel1.TabIndex = 4;
+      
             // 
             // Form5
             // 

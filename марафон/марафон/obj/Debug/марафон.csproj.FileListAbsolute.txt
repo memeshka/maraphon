@@ -12,3 +12,6 @@ C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафо
 C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.Form4.resources
 C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.Form5.resources
 C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.UserControl1.resources
+C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.Form6.resources
+C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.Form7.resources
+C:\Users\user01\Desktop\464\марафон\марафон\obj\Debug\марафон.Form8.resources

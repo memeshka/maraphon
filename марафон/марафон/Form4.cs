@@ -38,5 +38,12 @@ namespace марафон
             Form5 yyy = new Form5();
             yyy.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form6 yyy = new Form6();
+            yyy.Show();
+        }
     }
 }

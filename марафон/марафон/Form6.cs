@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace марафон
 {
-    public partial class Form1 : Form
+    public partial class Form6 : Form
     {
-        public Form1()
+        public Form6()
         {
             InitializeComponent();
         }
@@ -21,32 +20,26 @@ namespace марафон
         private void timer1_Tick(object sender, EventArgs e)
         {
             TimeSpan t = Program.start - DateTime.Now;
-            label1.Text = t.Days.ToString() + " days, " +
+            label3.Text = t.Days.ToString() + " days, " +
                 t.Hours.ToString() + " hours, " +
                 t.Minutes.ToString() + " minutes";
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form2 yyy = new Form2();
-            yyy.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form4 yyy = new Form4();
             yyy.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void pictureBox1_DoubleClick(object sender, EventArgs e)
         {
-            this.Hide();
-            Form7 yyy = new Form7();
-            yyy.Show();
+            pictureBox2.Show();
         }
 
- 
+        private void pictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            pictureBox2.Hide();
+        }
     }
 }
